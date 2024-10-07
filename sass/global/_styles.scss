@@ -1,0 +1,27 @@
+#wrapper,
+main,
+#content,
+#sidebar,
+aside,
+section {
+	@include box;
+}
+
+.layout {
+	@include box;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+body {
+	background-color: $body;
+}
+
+header {
+	max-width: 1230px;
+	margin: 0 auto;
+}
+
+section {
+	padding: 120px 0;
+}
